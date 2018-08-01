@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .picture{
     padding: 50px;
     background: red;
