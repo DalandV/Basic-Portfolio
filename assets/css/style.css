@@ -38,9 +38,10 @@ li a{
     padding: 0px 15px 0px 15px;
     text-decoration: none;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .borders{
-    border-right: 1px solid #000;
+    border-right: 1px solid #dddddd;
 }
 #centered{
     margin-right: 160px;
@@ -57,9 +58,6 @@ section{
     padding-bottom: 20px;
     border: 2px solid #dddddd;
 }
-
-/* Section About Me */
-
 h2{
     margin: 0 20px 20px 20px;
     padding: 25px 0;
@@ -67,6 +65,9 @@ h2{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+/* Section About Me */
+
 p {
     margin: 0 20px;
     line-height: 200%;
@@ -77,6 +78,30 @@ p {
 .headshot{
     float: left;
     margin: 0px 20px 20px 0px;
+}
+
+/* Section Contact */
+
+form{
+    margin: 0 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+input{
+    margin: 5px 0 15px 0;
+}
+.inputWidth{
+    width: 100%;
+}
+#message{
+    /* height: 150px; */
+    padding: 0 0 150px 0;
+}
+#submit{
+    margin: 0;
+    padding: 5px 15px;
+    background: #4aaaa5;
+    color: #ffffff;
 }
 
 /* Section Portfolio */
@@ -93,4 +118,5 @@ footer{
     background: #666666;
     padding: 30px;
     border-top: 5px solid #4aaaa5;
+    margin-top: 10px;
 }
