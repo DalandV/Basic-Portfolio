@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("../images/stripes-light.png");
+    background-image: url("../images/grey_sandbag.png");
     padding: 0;
     margin: 0;
 }
@@ -22,7 +22,7 @@ h1{
     margin: 0;
     display: inline;
     margin-left: 160px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 ul {
     list-style-type: none;
@@ -63,7 +63,7 @@ h2{
     padding: 25px 0;
     border-bottom: 3px solid #dddddd;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 /* Section About Me */
@@ -93,8 +93,11 @@ input{
 .inputWidth{
     width: 100%;
 }
+.notMessage{
+    padding: 5px;
+}
 #message{
-    padding: 0 0 150px 0;
+    padding: 0 0 200px 0;
 }
 #submit{
     margin: 0;
@@ -119,6 +122,7 @@ input{
     bottom: 70px;
     text-align: center;
     padding: 20px 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 #portfolio{
     overflow: auto;
@@ -133,5 +137,5 @@ footer{
     background: #666666;
     padding: 30px;
     border-top: 5px solid #4aaaa5;
-    margin-top: 10px;
+    margin-top: 30px;
 }
