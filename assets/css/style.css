@@ -94,7 +94,6 @@ input{
     width: 100%;
 }
 #message{
-    /* height: 150px; */
     padding: 0 0 150px 0;
 }
 #submit{
@@ -106,10 +105,26 @@ input{
 
 /* Section Portfolio */
 
-.picture{
-    padding: 50px;
-    background: red;
+.picturediv{
+    margin-right: 15px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    float: left;
+    height: 200px;
+}
+.image-text{
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    padding: 20px 0;
+}
+#portfolio{
+    overflow: auto;
+}
+.clearleft{
+    clear: left;
 }
 
 /* Footer */
